@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sales Navigator Exporter</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      background-color: #0077B5;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin: 5px 0;
+      width: 100%;
+    }
+    button:hover {
+      background-color: #006097;
+    }
+    button:disabled {
+      background-color: #ccc;
+      cursor: not-allowed;
+    }
+    .status {
+      margin-top: 10px;
+      padding: 5px;
+      border-radius: 4px;
+    }
+    .success {
+      background-color: #e6f4ea;
+      color: #137333;
+    }
+    .error {
+      background-color: #fce8e6;
+      color: #c5221f;
+    }
+    h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <h3>Sales Navigator Exporter</h3>
+  <p>Export your LinkedIn Sales Navigator data to CSV</p>
+  
+  <button id="captureCookies">Capture LinkedIn Cookies</button>
+  <button id="downloadCookies">Download Cookies</button>
+  
+  <div id="status" class="status" style="display: none;"></div>
+  
+  <hr>
+  <p>Use the downloaded cookies with the scraper script to export your data.</p>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

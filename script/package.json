@@ -1,0 +1,16 @@
+{
+  "name": "sales-navigator-exporter",
+  "version": "1.0.0",
+  "description": "Export lead and account lists from LinkedIn Sales Navigator to CSV",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.7.0",
+    "csv-writer": "^1.6.0",
+    "yargs": "^17.7.1"
+  }
+}
